@@ -1,0 +1,11 @@
+.user-form {
+  width: 700px;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 30px;
+
+  &__button {
+    display: flex;
+    justify-content: space-between;
+  }
+}

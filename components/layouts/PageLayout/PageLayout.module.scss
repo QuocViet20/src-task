@@ -1,0 +1,22 @@
+.page-layout {
+  width: 100%;
+  &__header {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+}
+
+.home-icon {
+  color: white;
+  font-size: 25px;
+}
+
+.username {
+  color: white;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.change-language {
+  margin-left: 10px;
+}

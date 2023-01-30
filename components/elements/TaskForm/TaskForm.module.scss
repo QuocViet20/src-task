@@ -1,0 +1,9 @@
+.task-form {
+  width: 700px;
+  margin: 0 auto;
+
+  &__button {
+    display: flex;
+    justify-content: space-between;
+  }
+}

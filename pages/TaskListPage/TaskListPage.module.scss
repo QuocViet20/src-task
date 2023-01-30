@@ -1,0 +1,99 @@
+.task-page {
+  width: 90%;
+  padding-top: 20px;
+  margin: 0 auto;
+
+  &__header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  &__panigation {
+    text-align: center;
+
+    &--prev {
+      width: 120px;
+      height: 40px;
+    }
+
+    &--next {
+      width: 120px;
+      height: 40px;
+    }
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.add-button {
+  margin-left: 10px;
+}
+
+.edit-button {
+  margin-right: 10px;
+}
+
+.task-table {
+  text-align: center;
+  .table-head {
+    text-align: center;
+    &:nth-child(1) {
+      width: 60px;
+    }
+
+    &:nth-child(3) {
+      width: 160px;
+    }
+
+    &:nth-child(4) {
+      width: 160px;
+    }
+
+    &:nth-child(5) {
+      width: 200px;
+    }
+
+    &:nth-child(6) {
+      width: 100px;
+    }
+
+    &:nth-child(7) {
+      width: 100px;
+    }
+
+    &:nth-child(8) {
+      width: 180px;
+    }
+  }
+
+  td {
+    text-align: center;
+  }
+}
+
+.panigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &--button {
+    margin-right: 10px;
+  }
+  &--next {
+    margin-left: 10px;
+  }
+}
+
+.filter-status {
+  float: right;
+  padding-bottom: 15px;
+}
+
+.search-box {
+  max-width: 200px;
+}

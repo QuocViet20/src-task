@@ -1,0 +1,30 @@
+.login-page {
+  width: 40%;
+  padding-top: 90px;
+  margin: 0 auto;
+}
+
+.login-form {
+  &__header {
+    font-size: 25px;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.login-form__body-create {
+  padding-left: 5px;
+  text-decoration: none;
+}
+
+.button {
+  padding: 4px 8px;
+}
+
+.create-account {
+  margin-left: 5px !important;
+  text-decoration: none;
+}

@@ -1,0 +1,27 @@
+.register-page {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.register-form {
+  &__header {
+    font-size: 22px;
+  }
+
+  &__footer {
+    text-align: center;
+  }
+
+  &__body {
+    &--create {
+      text-decoration: none;
+      margin-left: 5px;
+    }
+  }
+}
+
+.button {
+  font-size: 16px;
+  padding: 10px 36px;
+}
